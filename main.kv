@@ -1,0 +1,15 @@
+import kivy
+
+kivy.require('1.0')
+
+from kivy.app import App
+from kivy.uix Label import Label
+
+class MyApp(app):
+
+      def build(self):
+          return Label(text='hello world')
+
+
+if __name__ == '__main__':
+   MyApp().run()
